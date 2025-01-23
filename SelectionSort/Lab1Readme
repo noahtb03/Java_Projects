@@ -1,0 +1,8 @@
+1. How to run test drivers: Download the zip file and put it in the package
+explorer. Then open up the test folder and default package, and double click
+on the SelectionSortTest.java file. Simply run this, and it should check all
+of the test cases.
+
+2. The run time of my test case with 1000 array entries was 0.004 seconds 
+according to the eclipse JUnit test case compiler. This makes sense because
+the c in front of the n^2 run time is likely very small.
