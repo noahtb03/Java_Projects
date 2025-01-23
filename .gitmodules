@@ -1,0 +1,6 @@
+[submodule "Tag-Cloud-Generator"]
+	path = Tag-Cloud-Generator
+	url = https://github.com/noahtb03/Tag-Cloud-Generator
+[submodule "Natural-Number-Calculator"]
+	path = Natural-Number-Calculator
+	url = https://github.com/noahtb03/Natural-Number-Calculator
