@@ -337,9 +337,7 @@ public final class GlossaryCreator {
 
         printMainFile(file, folder);
 
-        /*
-         * Close input and output streams
-         */
+        //Close input and output streams
         in.close();
         out.close();
     }
