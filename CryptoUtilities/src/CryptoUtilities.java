@@ -363,10 +363,6 @@ public final class CryptoUtilities {
         SimpleReader in = new SimpleReader1L();
         SimpleWriter out = new SimpleWriter1L();
 
-        /*
-         * Sanity check of randomNumber method -- just so everyone can see how
-         * it might be "tested"
-         */
         final int testValue = 17;
         final int testSamples = 100000;
         NaturalNumber test = new NaturalNumber2(testValue);
