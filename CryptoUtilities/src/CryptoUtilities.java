@@ -284,15 +284,6 @@ public final class CryptoUtilities {
     public static boolean isPrime2(NaturalNumber n) {
         assert n.compareTo(new NaturalNumber2(1)) > 0 : "Violation of: n > 1";
 
-        /*
-         * Use the ability to generate random numbers (provided by the
-         * randomNumber method above) to generate several witness candidates --
-         * say, 10 to 50 candidates -- guessing that n is prime only if none of
-         * these candidates is a witness to n being composite (based on fact #3
-         * as described in the project description); use the code for isPrime1
-         * as a guide for how to do this, and pay attention to the requires
-         * clause of isWitnessToCompositeness
-         */
         n.subtract(new NaturalNumber2(2));
         NaturalNumber checker = new NaturalNumber2(n);
         n.add(new NaturalNumber2(2));
