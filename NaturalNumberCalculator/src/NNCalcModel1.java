@@ -4,7 +4,7 @@ import components.naturalnumber.NaturalNumber2;
 /**
  * Model class.
  *
- * @author Put your name here
+ * @author Noah Bennett
  */
 public final class NNCalcModel1 implements NNCalcModel {
 
