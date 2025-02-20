@@ -37,7 +37,41 @@ public final class NNCalcController1 implements NNCalcController {
     private static void updateViewToMatchModel(NNCalcModel model,
             NNCalcView view) {
 
-        // TODO: fill in body
+        NaturalNumber top = model.top();
+        NaturalNumber bottom = model.bottom();
+
+        //if the bottom number is less than than the top subtract is allowed
+        if (bottom.compareTo(top) < 0) {
+            view.updateSubtractAllowed(true);
+        } else {
+            view.updateSubtractAllowed(false);
+        }
+
+        //if the bottom number is zero divide isn't allowed
+        if (bottom.isZero()) {
+            view.updateDivideAllowed(false);
+        } else {
+            view.updateDivideAllowed(true);
+        }
+
+        //if the bottom number is less than the integer limit power is allowed
+        if (bottom.compareTo(INT_LIMIT) <= 0) {
+            view.updatePowerAllowed(true);
+        } else {
+            view.updatePowerAllowed(false);
+        }
+
+        //if bottom number is greater than or equal to 2 and less than
+        //the integer limit updating root is allowed
+        if (bottom.compareTo(TWO) >= 0 && bottom.compareTo(INT_LIMIT) <= 0) {
+            view.updateRootAllowed(true);
+        } else {
+            view.updateRootAllowed(false);
+        }
+
+        //update displays
+        view.updateTopDisplay(top);
+        view.updateBottomDisplay(bottom);
 
     }
 
@@ -94,56 +128,105 @@ public final class NNCalcController1 implements NNCalcController {
     @Override
     public void processEnterEvent() {
 
-        // TODO: fill in body
+        NaturalNumber top = this.model.top();
+        NaturalNumber bottom = this.model.bottom();
+
+        top.copyFrom(bottom);
+
+        updateViewToMatchModel(this.model, this.view);
 
     }
 
     @Override
     public void processAddEvent() {
 
-        // TODO: fill in body
+        NaturalNumber top = this.model.top();
+        NaturalNumber bottom = this.model.bottom();
+
+        bottom.add(top);
+        top.clear();
+
+        updateViewToMatchModel(this.model, this.view);
 
     }
 
     @Override
     public void processSubtractEvent() {
 
-        // TODO: fill in body
+        NaturalNumber top = this.model.top();
+        NaturalNumber bottom = this.model.bottom();
+
+        top.subtract(bottom);
+        bottom.transferFrom(top);
+
+        updateViewToMatchModel(this.model, this.view);
+
 
     }
 
     @Override
     public void processMultiplyEvent() {
 
-        // TODO: fill in body
+        NaturalNumber top = this.model.top();
+        NaturalNumber bottom = this.model.bottom();
+
+        top.multiply(bottom);
+        bottom.transferFrom(top);
+
+        updateViewToMatchModel(this.model, this.view);
 
     }
 
     @Override
     public void processDivideEvent() {
 
-        // TODO: fill in body
+        NaturalNumber top = this.model.top();
+        NaturalNumber bottom = this.model.bottom();
+
+        NaturalNumber holder = top.divide(bottom);
+        bottom.transferFrom(top);
+        top.transferFrom(holder);
+
+        updateViewToMatchModel(this.model, this.view);
 
     }
 
     @Override
     public void processPowerEvent() {
 
-        // TODO: fill in body
+        NaturalNumber top = this.model.top();
+        NaturalNumber bottom = this.model.bottom();
+
+        int p = bottom.toInt();
+
+        top.power(p);
+        bottom.transferFrom(top);
+
+        updateViewToMatchModel(this.model, this.view);
 
     }
 
     @Override
     public void processRootEvent() {
 
-        // TODO: fill in body
+        NaturalNumber top = this.model.top();
+        NaturalNumber bottom = this.model.bottom();
+
+        top.root(bottom.toInt());
+        bottom.transferFrom(top);
+
+        updateViewToMatchModel(this.model, this.view);
 
     }
 
     @Override
     public void processAddNewDigitEvent(int digit) {
 
-        // TODO: fill in body
+        NaturalNumber bottom = this.model.bottom();
+
+        bottom.multiplyBy10(digit);
+
+        updateViewToMatchModel(this.model, this.view);
 
     }
 
