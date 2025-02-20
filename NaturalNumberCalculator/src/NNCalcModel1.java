@@ -24,25 +24,13 @@ public final class NNCalcModel1 implements NNCalcModel {
     @Override
     public NaturalNumber top() {
 
-        // TODO: fill in body
-
-        /*
-         * This line added just to make the program compilable. Should be
-         * replaced with appropriate return statement.
-         */
-        return null;
+        return this.top;
     }
 
     @Override
     public NaturalNumber bottom() {
 
-        // TODO: fill in body
-
-        /*
-         * This line added just to make the program compilable. Should be
-         * replaced with appropriate return statement.
-         */
-        return null;
+        return this.bottom;
     }
 
 }
