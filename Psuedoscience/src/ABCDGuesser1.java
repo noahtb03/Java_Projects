@@ -5,9 +5,8 @@ import components.simplewriter.SimpleWriter1L;
 import components.utilities.FormatChecker;
 
 /**
- * Put a short phrase describing the program here.
  *
- * @author Put your name here
+ * @author Noah Bennett
  *
  */
 public final class ABCDGuesser1 {
