@@ -1,9 +1,6 @@
 import static org.junit.Assert.assertEquals;
-
 import java.util.Comparator;
-
 import org.junit.Test;
-
 import components.sortingmachine.SortingMachine;
 
 /**
