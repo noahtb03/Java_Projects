@@ -163,7 +163,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test add with a repeat of elements.
+     * Test add with a repeat of elements.
      */
     @Test
     public final void testAdd3() {
@@ -178,7 +178,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test changeToExtractionMode on this so that changes from insertion to
+     * Test changeToExtractionMode on this so that changes from insertion to
      * extraction.
      */
     @Test
@@ -198,7 +198,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test changeToExtractionMode on this so that changes from insertion to
+     * Test changeToExtractionMode on this so that changes from insertion to
      * extraction, on empty.
      */
     @Test
@@ -217,7 +217,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test removeFirst on a single element.
+     * Test removeFirst on a single element.
      */
     @Test
     public final void testRemoveFirst1() {
@@ -228,7 +228,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test removeFirst in order.
+     * Test removeFirst in order.
      */
     @Test
     public final void testRemoveFirst2() {
@@ -243,7 +243,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test removeFirst on strings with more values.
+     * Test removeFirst on strings with more values.
      */
     @Test
     public final void testRemoveFirst3() {
