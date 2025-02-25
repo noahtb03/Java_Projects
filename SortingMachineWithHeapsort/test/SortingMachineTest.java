@@ -115,7 +115,7 @@ public abstract class SortingMachineTest {
     private static final StringLT ORDER = new StringLT();
 
     /**
-     * test the constructor.
+     * Test the constructor.
      */
     @Test
     public final void testConstructor() {
@@ -125,7 +125,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test add on empty heap.
+     * Test add on empty heap.
      */
     @Test
     public final void testAddEmpty() {
@@ -137,7 +137,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test add on nonempty.
+     * Test add on nonempty.
      */
     @Test
     public final void testAdd1() {
@@ -149,7 +149,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test add on nonempty large.
+     * Test add on nonempty large.
      */
     @Test
     public final void testAdd2() {
