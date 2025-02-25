@@ -7,7 +7,7 @@ import components.set.Set;
 /**
  * JUnit test fixture for {@code Set<String>}'s constructor and kernel methods.
  *
- * @author Mark Karev, Noah Bennett
+ * @author Noah Bennett
  *
  */
 public abstract class SetTest {
@@ -237,7 +237,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test removeAny on a larger set.
+     * Test removeAny on a larger set.
      */
     @Test
     public final void testRemoveAny3() {
