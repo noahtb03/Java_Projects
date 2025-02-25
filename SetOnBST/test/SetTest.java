@@ -82,7 +82,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test add with single element to an empty set.
+     * Test add with single element to an empty set.
      */
     @Test
     public final void testAdd1() {
@@ -95,7 +95,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test adding an element to a nonempty set small.
+     * Test adding an element to a nonempty set small.
      */
     @Test
     public final void testAdd2() {
@@ -108,7 +108,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test adding an element to a set multiple times.
+     * Test adding an element to a set multiple times.
      */
     @Test
     public final void testAdd3() {
@@ -123,7 +123,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test adding an empty string to a set .
+     * Test adding an empty string to a set .
      */
     @Test
     public final void testAdd4() {
@@ -135,7 +135,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test adding a string to a large set .
+     * Test adding a string to a large set .
      */
     @Test
     public final void testAdd5() {
@@ -149,7 +149,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test removing an element from a small set.
+     * Test removing an element from a small set.
      */
     @Test
     public final void testRemove1() {
@@ -161,7 +161,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test remove on a large set with no left subtree.
+     * Test remove on a large set with no left subtree.
      */
     @Test
     public final void testRemove2() {
@@ -174,7 +174,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test remove on a large set with no right subtree.
+     * Test remove on a large set with no right subtree.
      */
     @Test
     public final void testRemove3() {
@@ -187,7 +187,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test remove on a large set.
+     * Test remove on a large set.
      */
     @Test
     public final void testRemove4() {
@@ -200,7 +200,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test removing multiple elements.
+     * Test removing multiple elements.
      */
     @Test
     public final void testRemove5() {
@@ -226,7 +226,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test removeAny on a single element set.
+     * Test removeAny on a single element set.
      */
     @Test
     public final void testRemoveAny2() {
@@ -251,7 +251,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test contains for true.
+     * Test contains for true.
      */
     @Test
     public final void testContains1() {
@@ -261,7 +261,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test contains for false.
+     * Test contains for false.
      */
     @Test
     public final void testContains2() {
@@ -271,7 +271,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test contains on an empty set.
+     * Test contains on an empty set.
      */
     @Test
     public final void testContains3() {
@@ -281,7 +281,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test contains on an empty set.
+     * Test contains on an empty set.
      */
     @Test
     public final void testContains4() {
@@ -291,7 +291,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test true contains on a large set.
+     * Test true contains on a large set.
      */
     @Test
     public final void testContains5() {
@@ -302,7 +302,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test size on an empty set.
+     * Test size on an empty set.
      */
     @Test
     public final void testSize1() {
@@ -313,7 +313,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test size on a nonempty set.
+     * Test size on a nonempty set.
      */
     @Test
     public final void testSize2() {
@@ -324,7 +324,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test size after calling add.
+     * Test size after calling add.
      */
     @Test
     public final void testSize3() {
@@ -337,7 +337,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test size after calling remove.
+     * Test size after calling remove.
      */
     @Test
     public final void testSize4() {
@@ -350,7 +350,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test size after calling removeAny.
+     * Test size after calling removeAny.
      */
     @Test
     public final void testSize5() {
