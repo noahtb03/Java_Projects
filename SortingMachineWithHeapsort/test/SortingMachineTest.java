@@ -259,7 +259,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test removeFirst on strings with integer values.
+     * Test removeFirst on strings with integer values.
      */
     @Test
     public final void testRemoveFirst4() {
@@ -275,7 +275,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test isInsertionMode for true.
+     * Test isInsertionMode for true.
      */
     @Test
     public final void testIsInsertionMode1() {
@@ -288,7 +288,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test isInsertionMode on empty for true.
+     * Test isInsertionMode on empty for true.
      */
     @Test
     public final void testIsInsertionMode2() {
@@ -301,7 +301,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test isInsertionMode for false.
+     * Test isInsertionMode for false.
      */
     @Test
     public final void testIsInsertionMode3() {
@@ -315,7 +315,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test size on empty.
+     * Test size on empty.
      */
     @Test
     public final void testSize1() {
@@ -326,7 +326,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test size on nonempty.
+     * Test size on nonempty.
      */
     @Test
     public final void testSize2() {
@@ -337,7 +337,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test size on larger heap.
+     * Test size on larger heap.
      */
     @Test
     public final void testSize3() {
@@ -349,7 +349,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test size after calling removeFirst.
+     * Test size after calling removeFirst.
      */
     @Test
     public final void testSizeOnRemoveFirst() {
@@ -362,7 +362,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test size after calling add.
+     * Test size after calling add.
      */
     @Test
     public final void testSizeOnAdd() {
@@ -375,7 +375,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test order for empty case.
+     * Test order for empty case.
      */
     @Test
     public final void testOrderEmpty() {
@@ -386,7 +386,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test order for regular case.
+     * Test order for regular case.
      */
     @Test
     public final void testOrder1() {
@@ -399,7 +399,7 @@ public abstract class SortingMachineTest {
     }
 
     /**
-     * test order for large case.
+     * Test order for large case.
      */
     @Test
     public final void testOrder2() {
