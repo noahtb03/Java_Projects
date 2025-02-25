@@ -71,7 +71,7 @@ public abstract class SetTest {
     }
 
     /**
-     * test constructor.
+     * Test constructor.
      */
     @Test
     public final void testConstructor() {
