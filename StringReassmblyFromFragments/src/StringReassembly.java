@@ -447,9 +447,7 @@ public final class StringReassembly {
                 printWithLineSeparators(str, out);
             }
         }
-        /*
-         * Close input and output streams
-         */
+        //Close input and output streams
         in.close();
         out.close();
     }
