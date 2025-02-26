@@ -27,7 +27,6 @@ public class StringReassemblyTest {
     }
 
     //longer routine
-
     @Test
     public void combination_test2() {
         String str = "OhioStateTester";
@@ -44,7 +43,6 @@ public class StringReassemblyTest {
     }
 
     //test with spaces
-
     @Test
     public void combination_test3() {
         String str = "I love to run";
@@ -61,7 +59,6 @@ public class StringReassemblyTest {
     }
 
     //test with two of the same
-
     @Test
     public void combination_test4() {
         String str = "I love to run";
@@ -78,7 +75,6 @@ public class StringReassemblyTest {
     }
 
     //one character
-
     @Test
     public void combination_test5() {
         String str = "a";
@@ -95,7 +91,6 @@ public class StringReassemblyTest {
     }
 
     //one character
-
     @Test
     public void addToSetAvoidingSubstrings_test1() {
         String str = "a";
@@ -110,7 +105,6 @@ public class StringReassemblyTest {
     }
 
     //Test with the same ones
-
     @Test
     public void addToSetAvoidingSubstrings_test2() {
         String str = "The cow was large";
@@ -125,7 +119,6 @@ public class StringReassemblyTest {
     }
 
     //Two different strings of different lengths
-
     @Test
     public void addToSetAvoidingSubstrings_test3() {
         String str = "The cow was large";
@@ -144,7 +137,6 @@ public class StringReassemblyTest {
     }
 
     //Test with a string that is a substring
-
     @Test
     public void addToSetAvoidingSubstrings_test4() {
         String str = "The cow was large";
@@ -162,7 +154,6 @@ public class StringReassemblyTest {
     }
 
     //Try with multiple different strings some with substrings
-
     @Test
     public void addToSetAvoidingSubstrings_test5() {
         String str = "The cow was large";
@@ -195,7 +186,6 @@ public class StringReassemblyTest {
     }
 
     //try with multiple different strings
-
     @Test
     public void addToSetAvoidingSubstrings_test6() {
         String str = "It was raining hard";
