@@ -1,7 +1,5 @@
 import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
-
 import components.set.Set;
 import components.set.Set1L;
 import components.simplereader.SimpleReader;
