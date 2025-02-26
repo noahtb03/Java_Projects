@@ -10,7 +10,7 @@ import components.simplewriter.SimpleWriter1L;
 public class StringReassemblyTest {
 
     //routine
-
+    //@Author: Noah Bennett
     @Test
     public void combination_test1() {
         String str = "empire";
