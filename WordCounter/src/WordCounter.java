@@ -250,8 +250,7 @@ public final class WordCounter {
     }
 
     /**
-     * Main method.
-     *
+     * Main method
      * @param args
      *            the command line arguments
      */
