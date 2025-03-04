@@ -11,7 +11,6 @@ import components.xmltree.XMLTree1;
  * Program to evaluate XMLTree expressions of {@code int}.
  *
  * @author Noah Bennett
- *
  */
 public final class XMLTreeNNExpressionEvaluator {
 
